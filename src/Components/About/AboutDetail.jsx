@@ -12,7 +12,7 @@ export default function AboutDetail() {
           Delivering Confidence Through Every Click and Connection
         </p>
       </div>
-      <section className="w-full px-4 pb-12 md:px-16 flex flex-col md:flex-row items-center justify-between gap-10 bg-white">
+      <section className="w-full px-4 pb-12 md:px-16 flex flex-col md:flex-row  justify-between gap-10 bg-white">
         {/* Left: Image */}
         <div className="w-full md:w-1/2 rounded-xl overflow-hidden">
           <img
@@ -42,7 +42,7 @@ export default function AboutDetail() {
             here to make technology work seamlessly for you.
           </p>
 
-          <button className="inline-flex items-center px-5 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition">
+          <button className="inline-flex items-center px-5 py-2  text-black  border-black border-2">
             Connect with us <ArrowRight className="ml-2 w-4 h-4" />
           </button>
         </div>
